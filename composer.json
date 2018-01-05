@@ -1,0 +1,18 @@
+{
+    "description": "Sandbox to test State Machine usage in complex Neos Editor",
+    "type": "neos-package",
+    "name": "ttree/lab-imageeditor",
+    "require": {
+        "neos/neos": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Lab\\ImageEditor\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Lab.ImageEditor"
+        }
+    }
+}
