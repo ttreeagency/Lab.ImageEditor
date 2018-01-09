@@ -7,8 +7,7 @@
         "watch": "neos-react-scripts watch"
     },
     "devDependencies": {
-        "@neos-project/neos-ui-extensibility": "1.0.4",
-        "proptypes": "^1.1.0"
+        "@neos-project/neos-ui-extensibility": "1.0.4"
     },
     "neos": {
         "buildTargetDirectory": "../../Public/ImageEditor"
