@@ -3,7 +3,7 @@
     "type": "neos-package",
     "name": "ttree/lab-imageeditor",
     "require": {
-        "neos/neos-ui": "^1.0"
+        "neos/neos": "*"
     },
     "autoload": {
         "psr-4": {

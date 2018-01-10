@@ -3,11 +3,11 @@ Neos:
     Ui:
       resources:
         javascript:
-          Ttree.Lab.ImageEditor:ImageEditor:
-              resource: resource://Ttree.Lab.ImageEditor/Public/ImageEditor/Plugin.js
+          'Ttree.Lab.ImageEditor:ImageEditor':
+            resource: resource://Ttree.Lab.ImageEditor/Public/ImageEditor/Plugin.js
 
     userInterface:
       inspector:
         dataTypes:
           Neos\Media\Domain\Model\ImageInterface:
-            editor: Ttree.Lab.ImageEditor:ImageEditor/Inspector/Editors/ImageEditor
+            editor: Ttree.Lab.ImageEditor/Inspector/Editors/ImageEditor
